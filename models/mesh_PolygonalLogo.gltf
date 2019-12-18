@@ -1,0 +1,152 @@
+{
+  "asset": {
+    "version": "2.0",
+    "generator": "THREE.GLTFExporter"
+  },
+  "scenes": [
+    {
+      "nodes": [
+        1
+      ],
+      "name": "AuxScene"
+    }
+  ],
+  "scene": 0,
+  "nodes": [
+    {
+      "name": "mesh_PolygonalLogo",
+      "mesh": 0
+    },
+    {
+      "children": [
+        0
+      ]
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 288,
+      "target": 34962,
+      "byteStride": 12
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 288,
+      "byteLength": 288,
+      "target": 34962,
+      "byteStride": 12
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 576,
+      "byteLength": 192,
+      "target": 34962,
+      "byteStride": 8
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 768,
+      "byteLength": 48,
+      "target": 34963
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 816,
+      "uri": "data:application/octet-stream;base64,IFhdNLJ8gz9MN8m/TDfJv7J8gz8WkBO0AAAAAONYREAAAAAATDfJv7J8gz8WkBO0FpCTs7J8gz9MN8k/AAAAAONYREAAAAAAFpCTs7J8gz9MN8k/TDfJP7J8gz8AAAAAAAAAAONYREAAAAAATDfJP7J8gz8AAAAAIFhdNLJ8gz9MN8m/AAAAAONYREAAAAAAIFhdNLJ8gz9MN8m/TDfJP7J8gz8AAAAAFZCTMgAAAAAXkJOyTDfJP7J8gz8AAAAAFpCTs7J8gz9MN8k/FZCTMgAAAAAXkJOyFpCTs7J8gz9MN8k/TDfJv7J8gz8WkBO0FZCTMgAAAAAXkJOyTDfJv7J8gz8WkBO0IFhdNLJ8gz9MN8m/FZCTMgAAAAAXkJOyUPcev6/p9D5R9x6/UPcev6/p9D5R9x6/UPcev7Hp9D5S9x6/UPcev6/p9D5Q9x4/UPcev6/p9D5Q9x4/Ufcev7Lp9D5R9x4/UfceP6/p9D5R9x4/UfceP6/p9D5R9x4/UfceP6/p9D5R9x4/UvceP7Lp9D5P9x6/UvceP7Lp9D5P9x6/UfceP7Lp9D5O9x6/LLf1Pq8CPL8qt/W+LLf1Pq8CPL8qt/W+Lbf1Pq8CPL8st/W+Lbf1Pq4CPL8wt/U+Lbf1Pq4CPL8wt/U+Lbf1Pq4CPL8vt/U+Lrf1vq4CPL8rt/U+Lrf1vq8CPL8tt/U+L7f1vq8CPL8st/U+Lbf1vq4CPL8wt/W+Lbf1vq4CPL8wt/W+LLf1vq4CPL8vt/W+AACAPgAAAD8AAMA+AAAAPwAAAD8AAIA/AADAPgAAAD8AAAA/AAAAPwAAAD8AAIA/AAAAPwAAAD8AACA/AAAAPwAAAD8AAIA/AAAgPwAAAD8AAEA/AAAAPwAAAD8AAIA/AQAAPwAAAAAAAEA/AACAPgAAAD8AAIA+AABAPwAAgD4AAAA/AAAAPwAAAD8AAIA+AAAAPwAAAD8AAIA+//9/PgAAAD8AAIA+AACAPv//fz4BAAA/AAAAAAAAAD8AAIA+AAABAAIAAwAEAAUABgAHAAgACQAKAAsADAANAA4ADwAQABEAEgATABQAFQAWABcA"
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 24,
+      "max": [
+        1.5720000267028809,
+        3.067925214767456,
+        1.5720000267028809
+      ],
+      "min": [
+        -1.5720000267028809,
+        0,
+        -1.5720000267028809
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 24,
+      "max": [
+        0.6209613084793091,
+        0.47834545373916626,
+        0.6209612488746643
+      ],
+      "min": [
+        -0.6209612488746643,
+        -0.7344159483909607,
+        -0.6209613084793091
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 24,
+      "max": [
+        0.75,
+        1
+      ],
+      "min": [
+        0.25,
+        0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5123,
+      "count": 24,
+      "max": [
+        23
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.4000000059604645,
+          0.4000000059604645,
+          0.4000000059604645,
+          1
+        ],
+        "metallicFactor": 0.5,
+        "roughnessFactor": 0.5
+      },
+      "name": "phong1"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "mode": 4,
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0
+        }
+      ]
+    }
+  ]
+}

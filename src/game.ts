@@ -1,5 +1,7 @@
 /// --- Set up a system ---
 
+const ROTATING_SPEED = 100;
+
 class RotatorSystem {
   // this group will contain every entity that has a Transform component
   group = engine.getComponentGroup(Transform)
@@ -11,7 +13,7 @@ class RotatorSystem {
       const transform = entity.getComponent(Transform)
 
       // mutate the rotation
-      transform.rotate(Vector3.Up(), dt * 10)
+      transform.rotate(Vector3.Up(), dt * ROTATING_SPEED)
     }
   }
 }
@@ -37,10 +39,27 @@ function spawnCube(x: number, y: number, z: number) {
   return cube
 }
 
+function spawnCustomModel(x: number, y: number, z: number, path: string) {
+  // create the entity
+  const cube = new Entity()
+
+  // add a transform to the entity
+  cube.addComponent(new Transform({ position: new Vector3(x, y, z) }))
+
+  // add a shape to the entity
+  cube.addComponent(new GLTFShape(path))
+
+  // add the entity to the engine
+  engine.addEntity(cube)
+
+  return cube
+}
+
 /// --- Spawn a cube ---
 
-const cube = spawnCube(8, 1, 8)
 
+const cube = spawnCustomModel(8, 1, 8, 'models/mesh_PolygonalLogo.gltf')
+/*
 cube.addComponent(
   new OnClick(() => {
     cube.getComponent(Transform).scale.z *= 1.1
@@ -49,3 +68,4 @@ cube.addComponent(
     spawnCube(Math.random() * 8 + 1, Math.random() * 8, Math.random() * 8 + 1)
   })
 )
+*/
